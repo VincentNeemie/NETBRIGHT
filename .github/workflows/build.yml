@@ -25,7 +25,7 @@ jobs:
         id: buildozernull
         with:
           repository_root: master
-          workdir: src/null
+          workdir: src
           buildozer_version: stable
 
       - name: Upload artifacts
@@ -50,7 +50,7 @@ jobs:
         id: buildozerv7
         with:
           repository_root: master
-          workdir: src/armeabi-v7a
+          workdir: src/
           buildozer_version: stable
 
       - name: Upload artifacts
@@ -75,7 +75,7 @@ jobs:
         id: buildozerv8
         with:
           repository_root: master
-          workdir: src/arm64-v8a
+          workdir: src/
           buildozer_version: stable
 
       - name: Upload artifacts
@@ -100,7 +100,7 @@ jobs:
         id: buildozerx86
         with:
           repository_root: master
-          workdir: src/x86
+          workdir: src/
           buildozer_version: stable
 
       - name: Upload artifacts
@@ -125,7 +125,7 @@ jobs:
         id: buildozerx64
         with:
           repository_root: master
-          workdir: src/x86-64
+          workdir: src/
           buildozer_version: stable
 
       - name: Upload artifacts
