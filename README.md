@@ -7,7 +7,7 @@ It uses Cloudflare IP addresses to avoid detection and supports multiple Iranian
 This project was built using Python and other tools such as Kivy and KivyMD.
 
 ## Features
-
+ 
 * Easy-to-use graphical user interface
 * Supports multiple Connection type (Load Balance and Manual)
 * Random Fragment generating
